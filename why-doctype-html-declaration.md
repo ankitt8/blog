@@ -22,7 +22,7 @@ With launch of `HTML:5` the complex `<!DOCTYPE HTML PUBLIC blablbla **.dtd` decl
 **So now we are clear how browsers understand to parse and validate html :rocket: 
 and understand the importance of including `<!DOCTYPE html>` in all html files at the top.** 
 
-You tell me and I follow , noooo ;)
+You tell me and I accept , NOOOO ;) I personally question everything :)
 
 ### So what will happen if we don't include
 - if you are with me till now, answer is clear  browser will not understand clearly the rules to parse html.
@@ -38,6 +38,11 @@ You tell me and I follow , noooo ;)
 - Internet says there can be other differences like in standard mode i.e with `<!DOCTYPE html>`, the box-sizing property is by default content-box in standard mode, but it can be border-box in quirks mode (though I tried it's not the case), etc
 
 ### Thanks for reading hope you learnt something new :)
+
+
+
+
+
 
 
 
