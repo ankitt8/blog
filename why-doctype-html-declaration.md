@@ -1,6 +1,7 @@
 # Why do we write `<!DOCTYPE html>` at top of html files
 
-When browsing the **Elements Tab** in your browser's devtool, you may have noticed `<!DOCTYPE html>` at the top of many html documents. **But why is it there, Let's break it down**.
+When browsing the **Elements Tab** in your browser's devtool
+![why-doctype-html-declaration-elements-tab.png](why-doctype-html-declaration-elements-tab.png)you may have noticed `<!DOCTYPE html>` at the top of many html documents. **But why is it there, Let's break it down**.
 
 
 **Did you ever thought how browser's understand the `HTML` syntax??**
