@@ -24,7 +24,7 @@ and understand the importance of including `<!DOCTYPE html>` in all html files a
 
 You tell me and I accept , NOOOO ;) I personally question everything :)
 
-### So what will happen if we don't include
+### So what will happen if we don't include `<!DOCTYPE html>`
 - if you are with me till now, answer is clear  browser will not understand clearly the rules to parse html.
 - You are partially correct, today's modern browsers do know how to parse html without `<!DOCTYPE html>`
 - But there can be issues for e.g below are 2 examples
