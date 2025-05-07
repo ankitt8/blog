@@ -10,7 +10,8 @@ time is so crucial while indian train ticket booking
 ### Problem Statement
 
 how can we reduce time to fill all the passenger details , some javascript magic so that just by 1 click 
-all passenger details are filled, 
+all passenger details are filled, the problem might not be when we have already filled the passenger details, 
+**but sometimes it gets removed or last minute logout if happens**
 
 ### Solution
 
