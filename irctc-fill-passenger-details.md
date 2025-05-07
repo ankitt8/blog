@@ -75,6 +75,10 @@ gender will have ```"M`, "F", "T"```
 
 ```javascript
 function fillAllPassengerForms(passengerArray) {
+    // we see many places dispatchEvent is done,
+    // so I was just doing element.value = passengers field
+    // but the form says fill the values
+    // so its some angular stuff hence had to add same
     function setSelectValue(selectEl, value) {
         if (!selectEl || !value) return;
         selectEl.value = value;
