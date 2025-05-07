@@ -17,7 +17,7 @@ all passenger details are filled,
 To automate this process, I wrote simple JavaScript code:
 
 1. Accepts an array of passenger details.
-2. Automatically sets default values for fileds which we want to be default values like Nationality we want always to be IN
+2. Automatically sets default values for fields which we want to be default values like Nationality we want always to be IN
 
 ### Passenger Details Code
 
