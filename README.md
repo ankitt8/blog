@@ -13,5 +13,3 @@ launching platform capabitlities, and many more stuff...
 ### 💻 Code Snippets
 - [IRCTC.js](./irctc.js) _(Written on 12/05/2025)_
 
-Feel free to explore and contribute if you find anything interesting! 🚀
-
