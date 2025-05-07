@@ -1,4 +1,7 @@
-# Blog
+## Author: Ankit Tiwari
+UI II @ Flipkart
+
+[LinkedIn](https://www.linkedin.com/in/ankitt8/)
 
 This repository contains blogs, quick learnings, and code snippets by me.
 
@@ -10,11 +13,4 @@ This repository contains blogs, quick learnings, and code snippets by me.
 ## Code Snippets
 
 - [IRCTC.js](./irctc.js)
-
-## Images
-
-- [Image 1](./img.png)
-- [Image 2](./img_1.png)
-
-
 
