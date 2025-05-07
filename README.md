@@ -1,16 +1,17 @@
-## Author: Ankit Tiwari
-UI II @ Flipkart
+# 👋 Hi there!
 
-[LinkedIn](https://www.linkedin.com/in/ankitt8/)
+I'm **Ankit Tiwari** - a passionate frontend developer specializing in web 
 
-This repository contains blogs, quick learnings, and code snippets by me.
+working as UI II Engineer at Flipkart, building seamless user experiences.
 
-## Contents
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/ankitt8/)
 
+### 📚 Blog Posts
 - [IRCTC Fill Passenger Details](./irctc-fill-passenger-details.md)
 - [Why Doctype HTML Declaration](./why-doctype-html-declaration.md)
 
-## Code Snippets
-
+### 💻 Code Snippets
 - [IRCTC.js](./irctc.js)
+
+Feel free to explore and contribute if you find anything interesting! 🚀
 
