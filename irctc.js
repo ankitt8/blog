@@ -38,10 +38,16 @@ function fillAllPassengerForms(passengerArray) {
     const berthSelects = document.querySelectorAll(
         'select[formcontrolname="passengerBerthChoice"]',
     );
+    // const inputFields = [nameInputs, ageInputs, genderSelects, nationalitySelects, berthSelects];
+
+    const foodSelects = document.querySelectorAll('select[formcontrolname="passengerFoodChoice"]');
 
     passengerArray.forEach((passenger, index) => {
         // change fields only which are provided in the passengers array
         // hence added passenger.field check
+        // Object.entries(passenger).forEach(([key,value], i) => {
+        //     inputFields[i][index].value = value;
+        // })
         if (nameInputs[index] && passenger.name) {
             nameInputs[index].value = passenger.name;
             nameInputs[index].dispatchEvent(new Event("input", { bubbles: true }));
@@ -63,8 +69,14 @@ function fillAllPassengerForms(passengerArray) {
         if (berthSelects[index] && passenger.berth) {
             updateBerthSelect(berthSelects[index], passenger.berth);
         }
+
+        if (foodSelects[index] && passenger.foodOption) {
+            setSelectValue(foodSelects[index], passenger.foodOption);
+        }
     });
 }
+
+// foodOption can be V, N, J, F, G, D
 
 const passengers = [
     {
@@ -72,33 +84,39 @@ const passengers = [
         age: 50,
         gender: "M",
         berth: "UB",
+        foodOption: 'D'
     },
     {
         name: "Person 2",
         age: 50,
         gender: "M",
+        foodOption: 'D'
     },
     {
         name: "Person 3",
         age: 50,
         gender: "F",
+        foodOption: 'D'
     },
     {
         name: "Person 4",
         age: 50,
         gender: "M",
+        foodOption: 'D'
     },
     {
         name: "Person 5",
         age: 50,
         gender: "M",
         berth: "LB",
+        foodOption: 'D'
     },
     {
         name: "Person 6",
         age: 50,
         gender: "M",
         berth: "LB",
+        foodOption: 'D'
     },
 ];
 fillAllPassengerForms(passengers);

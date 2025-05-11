@@ -67,6 +67,8 @@ so all the select tag have options with their value attribute, referenced same t
 so berth can have values ```"LB", "MB", "UB", "SL", "SU"```
 
 gender will have ```"M`, "F", "T"```
+![img_2.png](img_2.png)
+ foodOption can be ```"V", "N", "J", "F", "G", "D"```
 ### Here comes the javascript magic
 
 1. based on passengers count create input fields, by default ircts shows only 1 passenger details field
@@ -114,10 +116,16 @@ function fillAllPassengerForms(passengerArray) {
     const berthSelects = document.querySelectorAll(
         'select[formcontrolname="passengerBerthChoice"]',
     );
+    // const inputFields = [nameInputs, ageInputs, genderSelects, nationalitySelects, berthSelects];
+
+    const foodSelects = document.querySelectorAll('select[formcontrolname="passengerFoodChoice"]');
 
     passengerArray.forEach((passenger, index) => {
         // change fields only which are provided in the passengers array
         // hence added passenger.field check
+        // Object.entries(passenger).forEach(([key,value], i) => {
+        //     inputFields[i][index].value = value;
+        // })
         if (nameInputs[index] && passenger.name) {
             nameInputs[index].value = passenger.name;
             nameInputs[index].dispatchEvent(new Event("input", { bubbles: true }));
@@ -139,8 +147,14 @@ function fillAllPassengerForms(passengerArray) {
         if (berthSelects[index] && passenger.berth) {
             updateBerthSelect(berthSelects[index], passenger.berth);
         }
+
+        if (foodSelects[index] && passenger.foodOption) {
+            setSelectValue(foodSelects[index], passenger.foodOption);
+        }
     });
 }
+
+// foodOption can be V, N, J, F, G, D
 
 const passengers = [
     {
@@ -148,36 +162,43 @@ const passengers = [
         age: 50,
         gender: "M",
         berth: "UB",
+        foodOption: 'D'
     },
     {
         name: "Person 2",
         age: 50,
         gender: "M",
+        foodOption: 'D'
     },
     {
         name: "Person 3",
         age: 50,
         gender: "F",
+        foodOption: 'D'
     },
     {
         name: "Person 4",
         age: 50,
         gender: "M",
+        foodOption: 'D'
     },
     {
         name: "Person 5",
         age: 50,
         gender: "M",
         berth: "LB",
+        foodOption: 'D'
     },
     {
         name: "Person 6",
         age: 50,
         gender: "M",
         berth: "LB",
+        foodOption: 'D'
     },
 ];
 fillAllPassengerForms(passengers);
+
 // if we want to automate the click button also, add below snippet
 Array.from(document.querySelectorAll('button[type="submit"]'))
     .find(
@@ -186,7 +207,7 @@ Array.from(document.querySelectorAll('button[type="submit"]'))
     .click();
 ```
 If we run above code
-![img_1.png](img_1.png)
+![img_3.png](img_3.png)
 above output will come just by running the script in browser console, or in source tab create  a snippet.
 
 ### Key Features
