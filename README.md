@@ -8,9 +8,8 @@ launching platform capabitlities, and many more stuff...
 ### 📚 Blog Posts
 - [IRCTC Fill Passenger Details](./irctc-fill-passenger-details.md) _(Written on 7 May 2025)_
 - [Why Doctype HTML Declaration](./why-doctype-html-declaration.md) _(Written on 11 Jan 2025)_
+- [Setting up Eslint Prettier husky precommit in monorepo](https://dev.to/ankitt8/setting-up-eslint-airbnb-configuration-prettier-and-husky-pre-commit-hooks-in-cra-5dbo) _(Written on 4 Oct 2021)_
 
 ### 💻 Code Snippets
 - [IRCTC.js](./irctc.js) _(Written on 12/05/2025)_
-
-Feel free to explore and contribute if you find anything interesting! 🚀
 
